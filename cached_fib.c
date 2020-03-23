@@ -50,7 +50,6 @@ int cachedFib(int n){
     
     cache[0] = 1 ;
     cache[1] = 1 ; 
-    static int cache_size = 2 ; // already have cache[0]
     
     int result = fib(n,cache) ; 
     
